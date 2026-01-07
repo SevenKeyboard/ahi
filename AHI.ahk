@@ -180,7 +180,7 @@ class AHI
         this.instance.unsubscribeMouseMoveAbsolute(id)
     }
     ;--------------- Context Mode ---------------
-    createContextManager(id)    { ; Creates a context class to make it easy to turn on/off the hotkeys
+    createContextManager(id)    { ;  Creates a context class to make it easy to turn on/off the hotkeys
         if (this._contextManagers.hasKey(id))
             return this._contextManagers[id]
         cm := new this.contextManager(this, id)
