@@ -1,4 +1,4 @@
-#Requires AutoHotkey v1.1.35+
+#Requires AutoHotkey v1.1.36+
 #Include "%A_ScriptDir%"
 #Include ".\vendor\CLR.ahk" ;  Tested with https://github.com/Lexikos/CLR.ahk/blob/v1.2/CLR.ahk
 ;==============================================================
